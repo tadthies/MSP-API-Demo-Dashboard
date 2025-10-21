@@ -69,9 +69,9 @@ export function DebugPanel() {
         <div className="text-xs text-gray-600 space-y-1">
           <p>Make sure you have set the following environment variables:</p>
           <code className="block bg-gray-100 p-2 rounded text-xs">
-            BLUMIRA_CLIENT_ID=your_client_id
+            BLUMIRA_CLIENT_ID=G21TziA1TSTVzTF6FAl5A8ZKllp5YxNi
             <br />
-            BLUMIRA_CLIENT_SECRET=your_client_secret
+            BLUMIRA_CLIENT_SECRET=Ludi6mIyBXMC0xHWNMDDr4o5E8Oc08_ffOPcMIpqUU9_u-n6urPxD-8QFWx0xjVW
           </code>
         </div>
       </CardContent>
