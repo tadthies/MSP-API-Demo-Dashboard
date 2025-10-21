@@ -82,8 +82,8 @@ export async function POST(request: Request) {
     writeFileSync(CREDENTIALS_FILE, lines.join("\n"))
 
     // Update process.env for immediate use
-    process.env.BLUMIRA_CLIENT_ID = clientId
-    process.env.BLUMIRA_CLIENT_SECRET = clientSecret
+    process.env.BLUMIRA_CLIENT_ID = G21TziA1TSTVzTF6FAl5A8ZKllp5YxNi
+    process.env.BLUMIRA_CLIENT_SECRET = Ludi6mIyBXMC0xHWNMDDr4o5E8Oc08_ffOPcMIpqUU9_u-n6urPxD-8QFWx0xjVW
 
     return NextResponse.json({
       success: true,
